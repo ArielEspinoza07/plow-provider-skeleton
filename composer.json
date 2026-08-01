@@ -1,0 +1,49 @@
+{
+  "name": "arielespinoza07/plow-provider-skeleton",
+  "type": "plow-provider",
+  "description": "A Plow provider for <TOOL_NAME>.",
+  "license": "MIT",
+  "require": {
+    "php": "^8.3",
+    "arielespinoza07/plow-provider-kit": "^0.2.0"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.30",
+    "phpstan/phpstan": "^2.2",
+    "pestphp/pest": "^4.7"
+  },
+  "extra": {
+    "plow": {
+      "providers": ["Vendor\\PlowProviderSkeleton\\SkeletonProvider"]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\PlowProviderSkeleton\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vendor\\PlowProviderSkeleton\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "lint": "pint --test",
+    "lint:fix": "pint",
+    "analyse": "phpstan analyse",
+    "test": "pest",
+    "test:coverage": "pest --coverage",
+    "check": [
+      "@lint",
+      "@analyse",
+      "@test"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
