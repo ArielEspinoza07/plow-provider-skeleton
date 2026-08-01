@@ -1,5 +1,11 @@
 # Plow Provider Skeleton
 
+[![CI](https://github.com/arielespinoza07/plow-provider-skeleton/actions/workflows/ci.yml/badge.svg)](https://github.com/arielespinoza07/plow-provider-skeleton/actions/workflows/ci.yml)
+[![Latest Version](https://img.shields.io/packagist/v/arielespinoza07/plow-provider-skeleton.svg)](https://packagist.org/packages/arielespinoza07/plow-provider-skeleton)
+[![Total Downloads](https://img.shields.io/packagist/dt/arielespinoza07/plow-provider-skeleton.svg)](https://packagist.org/packages/arielespinoza07/plow-provider-skeleton)
+[![PHP Version](https://img.shields.io/packagist/php-v/arielespinoza07/plow-provider-skeleton.svg)](https://packagist.org/packages/arielespinoza07/plow-provider-skeleton)
+[![License](https://img.shields.io/packagist/l/arielespinoza07/plow-provider-skeleton.svg)](LICENSE)
+
 Starting point for a [Plow](https://github.com/ArielEspinoza07/plow) provider, built on
 [plow-provider-kit](https://github.com/ArielEspinoza07/plow-provider-kit).
 
